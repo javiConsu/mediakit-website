@@ -74,12 +74,13 @@ button { font-family: inherit; cursor: pointer; }
   height: 100%;
 }
 .nav__logo-img {
-  height: 22px;
+  /* Igualado a la altura total del boton .btn--sm (padding 10+10 + texto ~14px) */
+  height: 36px;
   width: auto;
   display: block;
 }
 @media (max-width: 480px) {
-  .nav__logo-img { height: 18px; }
+  .nav__logo-img { height: 30px; }
 }
 
 /* ============ Buttons ============ */

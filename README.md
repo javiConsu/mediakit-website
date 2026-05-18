@@ -1,6 +1,6 @@
-# Mediakit Website
+# Taller GEO B2B — Landing
 
-Landing page para captar registros al taller en directo "Cómo crear un Mediakit que cierra patrocinios".
+Landing page para captar registros al taller en directo **"Cómo convertir tu marca en la respuesta que cita la IA cuando tus clientes buscan soluciones"** (GEO aplicado a B2B).
 
 ## 🚀 Cómo verla en local
 

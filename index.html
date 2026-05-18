@@ -8,6 +8,9 @@
   <meta property="og:title" content="Taller GEO B2B en directo — Cómo aparecer en ChatGPT, Gemini y Perplexity" />
   <meta property="og:description" content="Aplica GEO al entorno B2B para que tu empresa aparezca cuando los compradores preguntan a la IA." />
   <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="assets/logo-icon.png" />
+  <link rel="apple-touch-icon" href="assets/logo-icon.png" />
+  <meta property="og:image" content="assets/logo-full.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -18,7 +21,9 @@
   <!-- NAVBAR -->
   <header class="nav">
     <div class="container nav__inner">
-      <a href="#top" class="nav__logo">GEO<span> B2B</span></a>
+      <a href="#top" class="nav__logo" aria-label="Sales Hackers — inicio">
+        <img src="assets/logo-full.png" alt="Sales Hackers" class="nav__logo-img" />
+      </a>
       <a href="#registro" class="btn btn--ghost btn--sm">Registrarme</a>
     </div>
   </header>
@@ -264,7 +269,10 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer__inner">
-      <span>© <span id="year"></span> Taller GEO B2B. Todos los derechos reservados.</span>
+      <span class="footer__brand">
+        <img src="assets/logo-icon.png" alt="Sales Hackers" class="footer__icon" />
+        © <span id="year"></span> Sales Hackers. Todos los derechos reservados.
+      </span>
       <span>Hecho con cariño desde España.</span>
     </div>
   </footer>

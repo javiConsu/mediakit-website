@@ -69,12 +69,18 @@ button { font-family: inherit; cursor: pointer; }
   height: 64px;
 }
 .nav__logo {
-  font-weight: 800;
-  font-size: 20px;
-  letter-spacing: -0.02em;
-  color: var(--blue);
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
 }
-.nav__logo span { color: var(--teal); font-weight: 600; }
+.nav__logo-img {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 480px) {
+  .nav__logo-img { height: 26px; }
+}
 
 /* ============ Buttons ============ */
 .btn {
@@ -421,8 +427,21 @@ button { font-family: inherit; cursor: pointer; }
 .footer__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 12px;
+}
+.footer__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__icon {
+  height: 24px;
+  width: auto;
+  display: block;
+  /* El icono viene con fondo blanco; mix-blend-mode lo neutraliza sobre fondo oscuro */
+  mix-blend-mode: lighten;
 }
 
 /* ============ Responsive ============ */
